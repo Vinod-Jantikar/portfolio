@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.headline {
+  font-size: 3rem; /* Large on desktops */
+  font-weight: bold;
+  color: #ccd6f6;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* Responsive font size */
+@media (max-width: 768px) {
+  .headline {
+    font-size: 2.5rem; /* Slightly smaller on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .headline {
+    font-size: 2rem; /* Smaller on mobile screens */
+  }
+}
+
+.highlight {
+  color: #c9adf7;
+  font-size: 3rem;
+  font-weight: bold;
+  animation: glow 1.5s infinite alternate;
+}
+
+@media (max-width: 768px) {
+  .highlight {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .highlight {
+    font-size: 2.5rem;
+  }
+}
+
+.subtext {
+  font-size: 1.8rem;
+  color: #8892b0;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .subtext {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .subtext {
+    font-size: 1.2rem;
+  }
+}
+
+.name {
+  font-weight: bold;
+  color: #c9adf7;
+  animation: glow 1.5s infinite alternate;
+}
+
+.country {
+  color: #ffcc00;
+}
+
+/* Image Styling */
+.profile-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #c9adf7, 0 0 10px #c9adf7;
+  }
+  50% {
+    text-shadow: 0 0 15px #c9adf7, 0 0 20px #c9adf7;
+  }
+  100% {
+    text-shadow: 0 0 5px #c9adf7, 0 0 10px #c9adf7;
+  }
+}
