@@ -11,7 +11,7 @@ const About = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 textAlign: { xs: "center", md: "left" },
-                height: "100vh",
+                // height: "100vh",
                 padding: { xs: 4, md: 9 },
                 gap: { xs: 4, md: 8 },
                 color: "#fff",
@@ -62,7 +62,7 @@ const About = () => {
                 }}
             >
                 <img
-                    src="assets/profile-pic.png" 
+                    src="assets/profile.jpg" 
                     alt="Vinod Jantikar"
                     className="profile-img"
                 />
