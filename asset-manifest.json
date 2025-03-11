@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Vinod-Jantikar/portfolio/static/css/main.3cfe58c0.css",
+    "main.js": "/Vinod-Jantikar/portfolio/static/js/main.2720f51d.js",
+    "static/js/453.d22c673f.chunk.js": "/Vinod-Jantikar/portfolio/static/js/453.d22c673f.chunk.js",
+    "static/media/background-image.jpg": "/Vinod-Jantikar/portfolio/static/media/background-image.35cffa6e468ff120d2da.jpg",
+    "static/media/logo.svg": "/Vinod-Jantikar/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Vinod-Jantikar/portfolio/index.html",
+    "main.3cfe58c0.css.map": "/Vinod-Jantikar/portfolio/static/css/main.3cfe58c0.css.map",
+    "main.2720f51d.js.map": "/Vinod-Jantikar/portfolio/static/js/main.2720f51d.js.map",
+    "453.d22c673f.chunk.js.map": "/Vinod-Jantikar/portfolio/static/js/453.d22c673f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cfe58c0.css",
+    "static/js/main.2720f51d.js"
+  ]
+}
